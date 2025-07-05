@@ -1,31 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histórico de Repertórios</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Repertórios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Histórico de Repertórios</h1>
-    <div>
-        <h2>Reunião de Oração - 30/06/2025</h2>
-        <p>Tema: Fortalecei-vos Na Oração</p>
-        <ul>
+  <h1>Histórico de Repertórios</h1>
+
+  <div class="accordion m-2" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Repertório 07/07/2025
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul>
+            <p>Tema:</p>
+            <li>Trindade: Estamos Aqui Reunidos</li>
+            <li>Perdão: Misericórdia Infinita</li>
+            <li>Animação:
+              <ul>
+                <li>O Tempo de Cantar Chegou</li>
+                <li>Agachadinho</li>
+                <li>Eu Quero Ser de Deus</li>
+              </ul>
+            </li>
+            <li>Palavra:</li>
+            <li>Pós-Palavra:</li>
+            <li>Louvor: Minha Canção</li>
+            <li>Espírito Santo: O Céu Se Abre</li>
+            <li>Final: Transbordarei de Esperança</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Repertório 30/06/2025
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Tema: Fortalecei-vos Na Oração</p>
+          <ul>
             <li>Trindade: Bom é Poder Estar Aqui</li>
             <li>Entrega: Eis-me Aqui, Senhor</li>
             <li>Animação:
-                <ul>
-                    <li>Agachadinho (Am)</li>
-                    <li>Passa Fogo (D)</li>
-                    <li>Passeio de Caranguejo (D)</li>
-                </ul>
+              <ul>
+                <li>Agachadinho (Am)</li>
+                <li>Passa Fogo (D)</li>
+                <li>Passeio de Caranguejo (D)</li>
+              </ul>
             </li>
             <li>Louvor: De Ti Preciso (F)</li>
             <li>Palavra: Livre Acesso</li>
             <li>Pós-Palavra:</li>
             <li>Espírito Santo: Incendeia Minha Alma</li>
             <li>Final: Transbordarei de Esperança (C)</li>
-        </ul>
+          </ul>
+        </div>
+      </div>
     </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Repertório 23/06/2025
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
